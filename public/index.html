@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="index.js"></script>
+<link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <button onclick="window.location.href = '/page1.html'">Click Here</button> 
+        <button onclick="check()">Page Two Link</button> 
+    </div>
+<form action="/login"method="post">
+  <div class="imgcontainer">
+    <img src="login.png" alt="Avatar" class="avatar">
+  </div>
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" id="uname" required>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" id="psw" required>  
+    <button type="button" id="btnSubmit">Login</button>
+  </div>
+</form>
+</body>
+</html>
